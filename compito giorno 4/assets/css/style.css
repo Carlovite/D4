@@ -1,0 +1,119 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+.container{
+    font-family: 'Poppins', sans-serif;
+    width: 600px;
+    background-image: url(../img/sfondo.png);
+    background-size: contain;
+    text-align: center;
+}
+span{
+    color: blueviolet;
+}
+.nome{
+    padding: 20px;
+}
+header{
+    width: 400px;
+    height: 250px;
+    background-image: linear-gradient(rgb(92, 195, 255), rgb(12, 89, 166));;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: auto;
+    border-radius: 3%;
+}
+main{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(104, 104, 104);
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+}
+nav{
+    color: aliceblue;
+    margin-top: 10px;
+}
+.logo{
+    width: 250px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    background-image: url(../img/logo.svg);
+    background-size: contain;
+
+}
+h1 {
+    font-size: 2em;
+    padding: 10px;
+    text-align: left;
+}
+#autore{
+    font-size: 0.8em;
+    color: darkgray;
+}
+.novita{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(229, 186, 186);
+border-radius: 1%;
+}
+footer{
+    width: 400px;
+    height: 150px;
+    background-image: linear-gradient(rgb(8, 85, 81), rgb(2, 62, 2));;
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+}
+.foot{
+    margin-left: auto;
+}
+iframe{
+    width: 95%;
+    border-radius: 5%;
+}
+p{
+    padding: 5 px;
+}
+.news{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(229, 186, 186);
+border-radius: 1%;
+
+}
+#CSSprop{
+    border-collapse: collapse;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#CSSprop td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;}
+    #CSSprop tr:nth-child(even){background-color: #f2f2f2;}
+    
+#CSSprop th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #267cbe;
+    color: white;}
+
+/* HEADER */
+
+/* MAIN */
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
