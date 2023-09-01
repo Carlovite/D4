@@ -45,10 +45,35 @@ nav{
     background-size: contain;
 
 }
+article ol{
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+.aree span{
+    display: inline-block;
+    color: black;
+    background-color: azure;
+    border: 1px solid gray;
+    border-radius: 2%;
+}
+.aree{
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+article p{
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
 h1 {
     font-size: 2em;
     padding: 10px;
     text-align: left;
+}
+#autore li{
+    display: inline;
 }
 #autore{
     font-size: 0.8em;
@@ -60,6 +85,16 @@ h1 {
     margin-right: auto;
     background-color: rgb(229, 186, 186);
 border-radius: 1%;
+}
+.novita a{
+    display: inline-block;
+    text-align: left;
+}
+.novita .sx{
+    text-align: left;
+}
+.novita .dx{
+    text-align: right;
 }
 footer{
     width: 400px;
@@ -74,7 +109,11 @@ footer{
 }
 iframe{
     width: 95%;
+    height:95%;
     border-radius: 5%;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    
 }
 p{
     padding: 5 px;
@@ -86,6 +125,11 @@ p{
     background-color: rgb(229, 186, 186);
 border-radius: 1%;
 
+}
+.news h3{
+    font-size: 1.5em;
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
 #CSSprop{
     border-collapse: collapse;
@@ -103,6 +147,15 @@ border-radius: 1%;
     padding-bottom: 12px;
     background-color: #267cbe;
     color: white;}
+.tabelle{
+    border-bottom: 1px solid lightblue;
+    margin-bottom: 2em;
+
+    }
+    .sub{
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
 
 /* HEADER */
 
